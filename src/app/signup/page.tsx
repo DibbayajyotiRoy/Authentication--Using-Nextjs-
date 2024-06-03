@@ -59,7 +59,7 @@ export default function SignupPage() {
       value={user.email}
       onChange={(e) => setUser({...user, email : e.target.value})}
       placeholder='email'
-      type="text" />
+       />
 
       <label htmlFor="password">password</label>
       <input 
@@ -69,7 +69,7 @@ export default function SignupPage() {
       value={user.password}
       onChange={(e) => setUser({...user, password : e.target.value})}
       placeholder='password'
-      type="text" />
+      />
     
 
     <button
