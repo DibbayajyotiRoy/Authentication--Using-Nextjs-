@@ -49,7 +49,7 @@ export default function SignupPage() {
       value={user.username}
       onChange={(e) => setUser({...user, username : e.target.value})}
       placeholder='username'
-      type="text" />
+       />
 
       <label htmlFor="email">email</label>
       <input 
